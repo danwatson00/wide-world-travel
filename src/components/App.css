@@ -1,3 +1,9 @@
+a {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -7,9 +13,13 @@
   height: 80px;
 }
 
+.App-banner {
+  max-width: 100%;
+}
+
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #150c10;
+  height: 60px;
   padding: 20px;
   color: white;
 }
@@ -22,7 +32,21 @@
   font-size: large;
 }
 
+.footer {
+  background-color: black;
+  min-height: 100px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.copyright {
+  color: white;
+}
+
+.links {
+  color: white;
+  margin-top: 20px;
 }
